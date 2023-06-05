@@ -1,0 +1,20 @@
+{
+    "env": {
+      "browser": true
+    },
+    "rules": {
+     // indicates that the linter should display a warning when this rule is violated.
+      "eqeqeq": "warn",
+      //This rule controls the enforcement of strict mode in JavaScript. 
+      "strict": "off",
+      //disables the restriction on importing packages that are not listed in the project's package.json dependencies or devDependencies. 
+      //It allows importing external dependencies without triggering an error.
+      "import/no-extraneous-dependencies": "off",
+      //disables the requirement to use the default export when a module only has a single export. It allows named exports instead.
+      "import/prefer-default-export": "off",
+      //disables the restriction on using underscores (_) in variable or property names. It allows the use of underscores without triggering an error.
+      "no-underscore-dangle": "off",
+      //disables the restriction on using certain global variables. It allows using restricted global variables without triggering an error.
+      "no-restricted-globals": "off"
+    }
+  }
