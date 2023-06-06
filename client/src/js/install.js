@@ -22,6 +22,6 @@ installBtn.addEventListener('click', async () => {
 });
 
 //This event is triggered after the app has been successfully installed on the user's device.
-window.addEventListener('zachs text editor installed', (event) => {
+window.addEventListener('Zachs Text Editor is now installed', (event) => {
     window.deferredPrompt = null;
 });
