@@ -50,10 +50,10 @@ THEN I should have proper build scripts for a webpack application
 
 ## Screenshots
 
-<img src="./assets/icons/texteditor.png" alt="text" title="text">
-<img src="./assets/icons/download.png" alt="download" title="download">
-<img src="./assets/icons/webpage.png" alt="webpage" title="webpage">
-<img src="./assets/icons/link.png" alt="link" title="link">
+<img src="./client/src/texteditor.png" alt="text" title="text">
+<img src="./client/src/download.png" alt="download" title="download">
+<img src="./client/src/webpage.png" alt="webpage" title="webpage">
+<img src="./client/src/link.png" alt="link" title="link">
 
 ## Technologies Used
 
