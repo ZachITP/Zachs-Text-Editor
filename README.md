@@ -50,15 +50,19 @@ THEN I should have proper build scripts for a webpack application
 
 ## Screenshots
 
-<img src="./Assets/Code.png" alt="code" title="code">
-<img src="./Assets/routes.png" alt="routes" title="routes">
-<img src="./Assets/Mongo.png" alt="MongoDB" title="MongoDB">
+<img src="./Assets/icons/texteditor.png" alt="text" title="text">
+<img src="./Assets/icons/download.png" alt="download" title="download">
+<img src="./Assets/icons/webpage.png" alt="webpage" title="webpage">
+<img src="./Assets/icons/link.png" alt="link" title="link">
 
 ## Technologies Used
 
 - JavaScript
 - Express.js
 - Node.js
+- CodeMirror
+- Heroku
+
 
 ## Contact Me
 
