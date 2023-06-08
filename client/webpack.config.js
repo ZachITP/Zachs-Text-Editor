@@ -21,6 +21,7 @@ module.exports = () => {
         template: './index.html',
         title: 'ZTE'
       }),
+      
       // service worker
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -30,16 +31,16 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Zachs-Text-Editor',
+        name: 'Zachs Text Editor',
         short_name: 'ZTE',
-        description: 'Zachs-Text-Editor',
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        description: 'run your app on and off line',
+        background_color: '#418029',
+        theme_color: '#418029',
         start_url: '/',
         publicPath: '/',
         icons: [
           {
-            src: path.resolve('./src/images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
@@ -48,7 +49,7 @@ module.exports = () => {
     ],
 
     module: {
-     
+      
       rules: [
         {
           test: /\.css$/i,

@@ -6,7 +6,7 @@ const header = `
      / /    / / / __/   
     / /__  / / / /___   
    /_____|/_/ /_____/   
-Zach's Text Editor
+Zach's Text Editor 
 */                          
 `;
 

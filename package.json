@@ -5,7 +5,7 @@
     "node": "14.17.3",
     "npm": "6.14.13"
   },
-  "description": "Zach's Text Editor",
+  "description": "run your app on and off line",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -17,14 +17,13 @@
   },
   "keywords": [],
   "author": "Zach Hanson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "express": "^4.18.2",
+    "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^8.1.0",
+    "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
 }

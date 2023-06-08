@@ -1,4 +1,3 @@
-//exports a function that sets up a route handler for the root URL
 const path = require('path');
 
 module.exports = (app) =>
