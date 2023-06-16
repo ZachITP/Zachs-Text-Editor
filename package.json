@@ -19,6 +19,7 @@
   "author": "Zach Hanson",
   "license": "MIT",
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },

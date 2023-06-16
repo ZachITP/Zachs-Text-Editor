@@ -6,7 +6,7 @@
 
 ## Description
 
-This application presents you with a text editor that can work both on and off line.
+This application presents you with a text editor that can work both on and off line. Check it out its really cool stuff! 
 
 ## User Story
 
