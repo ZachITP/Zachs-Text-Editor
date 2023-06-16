@@ -31,7 +31,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Zachs Text Editor",
+        name: "text editor",
         short_name: "ZTE",
         description: "run your app on and off line",
         background_color: "#418029",

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines:": {
     "node": "14.17.3",
-    "npm": "6.14.13"
+    "npm": "9.7.1"
   },
   "description": "run your app on and off line",
   "main": "server.js",
